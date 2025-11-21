@@ -1,0 +1,72 @@
+﻿@model MiLibreria.ViewModels.VentaDetalleViewModel
+
+@{
+    ViewData["Title"] = "Consultar Venta";
+}
+
+<h2>Consulta de Venta</h2>
+
+<form asp-action="Consultar" method="get">
+    <label for="nroFactura">Número de Factura:</label>
+    <input type="text" name="nroFactura" required />
+    <button type="submit">Buscar</button>
+</form>
+
+@if (Model != null)
+{
+    <h3>Detalles de la Venta</h3>
+    <table class="table">
+        <tr>
+            <th>Nro. Factura</th>
+            <td>@Model.NumeroFactura</td>
+        </tr>
+        <tr>
+            <th>Fecha Venta</th>
+            <td>@Model.FechaVenta.ToString("dd/MM/yyyy")</td>
+        </tr>
+        <tr>
+            <th>Total</th>
+            <td>@Model.TotalVenta.ToString("N")</td>
+        </tr>
+        <tr>
+            <th>Método de Pago</th>
+            <td>@Model.MetodoPago</td>
+        </tr>
+        @foreach (var item in Model.Clientes)
+        {
+            
+            <tr>
+                <th>Cliente</th>
+                <td>@item.Nombre</td>
+              
+            </tr>
+        }
+    </table>
+
+    <h3>Detalles de los Productos</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Libro</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.DetallesVenta)
+            {
+                <tr>
+                    <td>@item.Libro</td>
+                    <td>@item.Cantidad</td>
+                    <td>@item.PrecioUnitario.ToString("C")</td>
+                    <td>@item.Subtotal.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (ViewBag.Mensaje != null)
+{
+    <p style="color: red;">@ViewBag.Mensaje</p>
+}

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MiLibreria.Models.Venta>
+
+@{
+    ViewData["Title"] = "Reporte de ventas";
+}
+
+<h2>Consulta de Venta</h2>
+
+<form method="get" asp-action="">
+    <div>
+        <label for="nroFactura">Número de Factura:</label>
+        <input type="text" id="nroFactura" name="nroFactura" value="" />
+        <button type="submit" class="btn btn-primary">Filtrar y Generar PDF</button>
+    </div>
+</form>
+
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Numero de factura</th>
+                <th>Fecha de venta</th>
+                <th>Metodo de pago</th>
+                <th>Cliente</th>
+                <th>Libro</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Subtotal</th>
+                <th>Total</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var venta in Model)
+            {
+                <tr>
+                    <td>@venta.NumeroFactura</td>
+                    <td>@venta.FechaVenta</td>
+                    <td>@venta.MetodoPago</td>
+                    <td>@venta.Cliente</td>
+                 
+                    <td>@venta.DetallesVenta</td>
+                    <td>@venta.Total</td>
+                  
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No se encontraron libros para mostrar.</p>
+}

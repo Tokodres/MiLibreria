@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MiLibreria</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MiLibreria.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="d-flex">
+        <!-- Menú lateral -->
+        <nav class="d-flex flex-column bg-light p-3" style="width: 250px; height: 100vh; position: fixed;">
+            <a class="navbar-brand mb-3" asp-area="" asp-controller="Home" asp-action="Index">MiLibreria</a>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="collapse" data-bs-target="#crudSubmenu" aria-expanded="false">
+                        Clientes
+                    </a>
+
+                    <div class="collapse" id="crudSubmenu">
+                        <ul class="nav flex-column ms-3">
+
+                            <li><a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a></li>
+
+                        </ul>
+                    </div>
+
+                </li>
+
+               
+
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="collapse" data-bs-target="#ventasSubmenu" aria-expanded="false">
+                       Ventas
+                    </a>
+                    <div class="collapse" id="ventasSubmenu">
+                        <ul class="nav flex-column ms-3">
+                            <li><a class="nav-link text-dark" asp-area="" asp-controller="Ventas" asp-action="Create">Ventas</a></li>
+                        </ul>
+
+                        <ul class="nav flex-column ms-3">
+                            <li><a class="nav-link text-dark" asp-area="" asp-controller="Ventas" asp-action="Reporte">Reporte ventas</a></li>
+                        </ul>
+                        <ul class="nav flex-column ms-3">
+                            <li> <a class="nav-link text-dark" asp-area="" asp-controller="Graficas" asp-action="Index">Gráficas</a></li>
+                        </ul>
+
+               
+                    </div>
+               
+                </li>
+                 
+            </ul>
+        </nav>
+
+        <!-- Contenido principal -->
+        <div class="flex-grow-1 p-4" style="margin-left: 250px;">
+            <main role="main">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+   
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - MiLibreria - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
