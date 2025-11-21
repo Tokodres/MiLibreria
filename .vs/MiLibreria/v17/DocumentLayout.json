@@ -1,112 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\",
+  "WorkspaceRootPath": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\viewmodels\\ventadetalleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\viewmodels\\ventadetalleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\viewmodels\\detalleventaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\viewmodels\\detalleventaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\models\\bdlibreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\models\\bdlibreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\controllers\\graficascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\controllers\\graficascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\graficas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\graficas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\ventas\\reporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\views\\ventas\\reporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\ventas\\reporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\viewmodels\\ventadetalleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\viewmodels\\ventadetalleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\views\\graficas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\graficas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Clientes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\ventas\\consultar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\ventas\\consultar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\clientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\wwwroot\\reportes\\reportelibros.pdf||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\wwwroot\\reportes\\reportelibros.pdf||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\wwwroot\\reportes\\reportelibros.pdf||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\milibreria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\milibreria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\milibreria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\wwwroot\\js\\pastel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\wwwroot\\js\\pastel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\wwwroot\\js\\pastel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
@@ -128,33 +80,33 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Proveedores.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\migrations\\20241122120521_convertventaidtoidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\migrations\\20241122120521_convertventaidtoidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\migrations\\20241122120521_convertventaidtoidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Ventas.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\migrations\\bdlibreriacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\migrations\\bdlibreriacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\migrations\\bdlibreriacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\migrations\\20241118155329_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\migrations\\20241118155329_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\migrations\\20241118155329_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_ONEDRIVE_ESCRITORIO_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Libros.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\milibreria\\milibreria\\migrations\\20241118155329_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|c:\\users\\toko\\desktop\\ud\\is\\milibreria\\milibreria\\migrations\\20241118155329_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD327E52-CDA3-4A76-AA8B-5165BB37E469}|MiLibreria\\MiLibreria.csproj|solutionrelative:milibreria\\migrations\\20241118155329_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -165,7 +117,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -177,161 +129,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BDLibreriaContext.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\BDLibreriaContext.cs",
-              "RelativeDocumentMoniker": "MiLibreria\\Models\\BDLibreriaContext.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\BDLibreriaContext.cs",
-              "RelativeToolTip": "MiLibreria\\Models\\BDLibreriaContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T14:04:14.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GraficasController.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Controllers\\GraficasController.cs",
-              "RelativeDocumentMoniker": "MiLibreria\\Controllers\\GraficasController.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Controllers\\GraficasController.cs",
-              "RelativeToolTip": "MiLibreria\\Controllers\\GraficasController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T15:44:53.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DetalleVenta.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\DetalleVenta.cs",
-              "RelativeDocumentMoniker": "MiLibreria\\Models\\DetalleVenta.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\DetalleVenta.cs",
-              "RelativeToolTip": "MiLibreria\\Models\\DetalleVenta.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:59:54.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Clientes\\Index.cshtml",
-              "RelativeDocumentMoniker": "MiLibreria\\Views\\Clientes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Clientes\\Index.cshtml",
-              "RelativeToolTip": "MiLibreria\\Views\\Clientes\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T16:47:38.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Clientes\\Create.cshtml",
-              "RelativeDocumentMoniker": "MiLibreria\\Views\\Clientes\\Create.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Clientes\\Create.cshtml",
-              "RelativeToolTip": "MiLibreria\\Views\\Clientes\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T16:46:37.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Ventas\\Create.cshtml",
-              "RelativeDocumentMoniker": "MiLibreria\\Views\\Ventas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Ventas\\Create.cshtml",
-              "RelativeToolTip": "MiLibreria\\Views\\Ventas\\Create.cshtml",
-              "ViewState": "AgIAAPwAAAAAAAAAAAAAAI4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T17:48:09.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\Venta.cs",
-              "RelativeDocumentMoniker": "MiLibreria\\Models\\Venta.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\Venta.cs",
-              "RelativeToolTip": "MiLibreria\\Models\\Venta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:59:17.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VentasController.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Controllers\\VentasController.cs",
-              "RelativeDocumentMoniker": "MiLibreria\\Controllers\\VentasController.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Controllers\\VentasController.cs",
-              "RelativeToolTip": "MiLibreria\\Controllers\\VentasController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAgwI4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T16:29:42.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DetalleVentaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\ViewModels\\DetalleVentaViewModel.cs",
-              "RelativeDocumentMoniker": "MiLibreria\\ViewModels\\DetalleVentaViewModel.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\ViewModels\\DetalleVentaViewModel.cs",
-              "RelativeToolTip": "MiLibreria\\ViewModels\\DetalleVentaViewModel.cs",
+              "Title": "VentaDetalleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\ViewModels\\VentaDetalleViewModel.cs",
+              "RelativeDocumentMoniker": "MiLibreria\\ViewModels\\VentaDetalleViewModel.cs",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\ViewModels\\VentaDetalleViewModel.cs",
+              "RelativeToolTip": "MiLibreria\\ViewModels\\VentaDetalleViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T16:34:59.526Z",
+              "WhenOpened": "2025-11-21T01:50:05.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VentaDetalleViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\ViewModels\\VentaDetalleViewModel.cs",
-              "RelativeDocumentMoniker": "MiLibreria\\ViewModels\\VentaDetalleViewModel.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\ViewModels\\VentaDetalleViewModel.cs",
-              "RelativeToolTip": "MiLibreria\\ViewModels\\VentaDetalleViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T18:44:11.75Z",
+              "Title": "Reporte.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Ventas\\Reporte.cshtml",
+              "RelativeDocumentMoniker": "MiLibreria\\Views\\Ventas\\Reporte.cshtml",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Ventas\\Reporte.cshtml",
+              "RelativeToolTip": "MiLibreria\\Views\\Ventas\\Reporte.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T01:49:29.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\Libro.cs",
-              "RelativeDocumentMoniker": "MiLibreria\\Models\\Libro.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\Libro.cs",
-              "RelativeToolTip": "MiLibreria\\Models\\Libro.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAowCcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:58:43.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "MiLibreria\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\Cliente.cs",
-              "RelativeToolTip": "MiLibreria\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:56:42.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MiLibreria\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MiLibreria\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -340,24 +168,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Controllers\\ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "MiLibreria\\Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "MiLibreria\\Controllers\\ClientesController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAqwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T16:43:57.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T16:43:57.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Graficas\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Graficas\\Index.cshtml",
               "RelativeDocumentMoniker": "MiLibreria\\Views\\Graficas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Graficas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Graficas\\Index.cshtml",
               "RelativeToolTip": "MiLibreria\\Views\\Graficas\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -365,23 +192,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Reporte.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Ventas\\Reporte.cshtml",
-              "RelativeDocumentMoniker": "MiLibreria\\Views\\Ventas\\Reporte.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Ventas\\Reporte.cshtml",
-              "RelativeToolTip": "MiLibreria\\Views\\Ventas\\Reporte.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-31T19:57:36.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MiLibreria\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "MiLibreria\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -389,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 6,
               "Title": "dbo.Clientes.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Clientes.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Clientes.sql",
@@ -398,11 +213,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 7,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "MiLibreria\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "MiLibreria\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -410,23 +225,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Consultar.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Ventas\\Consultar.cshtml",
-              "RelativeDocumentMoniker": "MiLibreria\\Views\\Ventas\\Consultar.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Ventas\\Consultar.cshtml",
-              "RelativeToolTip": "MiLibreria\\Views\\Ventas\\Consultar.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T00:17:51.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Clientes\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Clientes\\Details.cshtml",
               "RelativeDocumentMoniker": "MiLibreria\\Views\\Clientes\\Details.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Clientes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Clientes\\Details.cshtml",
               "RelativeToolTip": "MiLibreria\\Views\\Clientes\\Details.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -434,11 +237,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 8,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Clientes\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Clientes\\Delete.cshtml",
               "RelativeDocumentMoniker": "MiLibreria\\Views\\Clientes\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Clientes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Clientes\\Delete.cshtml",
               "RelativeToolTip": "MiLibreria\\Views\\Clientes\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -446,11 +249,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Clientes\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Clientes\\Edit.cshtml",
               "RelativeDocumentMoniker": "MiLibreria\\Views\\Clientes\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Clientes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Clientes\\Edit.cshtml",
               "RelativeToolTip": "MiLibreria\\Views\\Clientes\\Edit.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAADIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -458,11 +261,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 11,
               "Title": "ReporteLibros.pdf",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\wwwroot\\Reportes\\ReporteLibros.pdf",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\wwwroot\\Reportes\\ReporteLibros.pdf",
               "RelativeDocumentMoniker": "MiLibreria\\wwwroot\\Reportes\\ReporteLibros.pdf",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\wwwroot\\Reportes\\ReporteLibros.pdf",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\wwwroot\\Reportes\\ReporteLibros.pdf",
               "RelativeToolTip": "MiLibreria\\wwwroot\\Reportes\\ReporteLibros.pdf",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF2SURBVDhPnVM7SwNhEJwvXB4o5CJqfCQhiiBiNKSy0MZOBO0ELbWyEgQ7CzvBzv8giI2lICEQKzFYSTCiWNnYKBKRSy6bwFjInXe5PNCBbfYxO7v7fYokAKAeUREEgg8cjQtaQH28hRmO7ATuX05tH0CQPybDPYVK4frLMAy2ssrtDWWkty46Nq0aklAOBay/Gs6mHqhSEdra8ic\u002By4v\u002BMu8AwNec1AlMpdE4v9ShaReWry2BL5\u002BFfyYJXz7r8jOVBhqN2K/D2oEO18wyFGL1KkcZH/DsQ3TQqmurgEsr8G1tgOlMc8iF9gSJJBCLA6FQc8iNdiPU5mdpPD1SokHW5qYpUzGahweeETwE5v4eZSpGSeiUaJCiw96DJPTuBDIYYPUqx9pYv63GPD6iJPtorq92J6ienVASOs3dbc/2LXMS/OklWvCP9sJfpoLrCppmqFLRmdcSqlQENM3u5FSQQXTohhOTHe\u002Bmnh8reH9bsP6CTfBffAPMC3DFi\u002BYoKwAAAABJRU5ErkJggg==",
@@ -470,11 +273,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 12,
               "Title": "MiLibreria.csproj",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\MiLibreria.csproj",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\MiLibreria.csproj",
               "RelativeDocumentMoniker": "MiLibreria\\MiLibreria.csproj",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\MiLibreria.csproj",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\MiLibreria.csproj",
               "RelativeToolTip": "MiLibreria\\MiLibreria.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -482,11 +285,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 14,
               "Title": "Pastel.js",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\wwwroot\\js\\Pastel.js",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\wwwroot\\js\\Pastel.js",
               "RelativeDocumentMoniker": "MiLibreria\\wwwroot\\js\\Pastel.js",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\wwwroot\\js\\Pastel.js",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\wwwroot\\js\\Pastel.js",
               "RelativeToolTip": "MiLibreria\\wwwroot\\js\\Pastel.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -494,11 +297,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MiLibreria\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "MiLibreria\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -506,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 15,
               "Title": "dbo.DetalleCompras.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.DetalleCompras.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.DetalleCompras.sql",
@@ -515,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 16,
               "Title": "dbo.DetalleVentas.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_ONEDRIVE_ESCRITORIO_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.DetalleVentas.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_ONEDRIVE_ESCRITORIO_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.DetalleVentas.sql",
@@ -524,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 17,
               "Title": "dbo.Compras.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_ONEDRIVE_ESCRITORIO_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Compras.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_ONEDRIVE_ESCRITORIO_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Compras.sql",
@@ -533,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 18,
               "Title": "dbo.Ventas.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_ONEDRIVE_ESCRITORIO_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Ventas.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_ONEDRIVE_ESCRITORIO_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Ventas.sql",
@@ -542,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 19,
               "Title": "dbo.DetalleVentas.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.DetalleVentas.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.DetalleVentas.sql",
@@ -551,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 20,
               "Title": "dbo.Proveedores.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Proveedores.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Proveedores.sql",
@@ -560,11 +363,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 21,
               "Title": "20241122120521_ConvertVentaIdToIdentity.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Migrations\\20241122120521_ConvertVentaIdToIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Migrations\\20241122120521_ConvertVentaIdToIdentity.cs",
               "RelativeDocumentMoniker": "MiLibreria\\Migrations\\20241122120521_ConvertVentaIdToIdentity.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Migrations\\20241122120521_ConvertVentaIdToIdentity.cs",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Migrations\\20241122120521_ConvertVentaIdToIdentity.cs",
               "RelativeToolTip": "MiLibreria\\Migrations\\20241122120521_ConvertVentaIdToIdentity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -572,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 22,
               "Title": "dbo.Ventas.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Ventas.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_DOWNLOADS_MILIBRERIA_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Ventas.sql",
@@ -581,11 +384,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Program.cs",
               "RelativeDocumentMoniker": "MiLibreria\\Program.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Program.cs",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Program.cs",
               "RelativeToolTip": "MiLibreria\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -593,11 +396,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 25,
               "Title": "20241118155329_InitialCreate.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Migrations\\20241118155329_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Migrations\\20241118155329_InitialCreate.Designer.cs",
               "RelativeDocumentMoniker": "MiLibreria\\Migrations\\20241118155329_InitialCreate.Designer.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Migrations\\20241118155329_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Migrations\\20241118155329_InitialCreate.Designer.cs",
               "RelativeToolTip": "MiLibreria\\Migrations\\20241118155329_InitialCreate.Designer.cs",
               "ViewState": "AgIAANMAAAAAAAAAAAAQwAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -605,11 +408,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 24,
               "Title": "BDLibreriaContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Migrations\\BDLibreriaContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Migrations\\BDLibreriaContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "MiLibreria\\Migrations\\BDLibreriaContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Migrations\\BDLibreriaContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Migrations\\BDLibreriaContextModelSnapshot.cs",
               "RelativeToolTip": "MiLibreria\\Migrations\\BDLibreriaContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -617,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 27,
               "Title": "dbo.Libros.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_ONEDRIVE_ESCRITORIO_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Libros.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ESTEBAN_ONEDRIVE_ESCRITORIO_MILIBRERIA_MILIBRERIA_BIN_DEBUG_NET8.0_LIBRERIA.MDF/True/SqlTable/dbo.Libros.sql",
@@ -626,11 +429,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 28,
               "Title": "20241118155329_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Migrations\\20241118155329_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Migrations\\20241118155329_InitialCreate.cs",
               "RelativeDocumentMoniker": "MiLibreria\\Migrations\\20241118155329_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\Migrations\\20241118155329_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\Migrations\\20241118155329_InitialCreate.cs",
               "RelativeToolTip": "MiLibreria\\Migrations\\20241118155329_InitialCreate.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -638,11 +441,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\appsettings.json",
               "RelativeDocumentMoniker": "MiLibreria\\appsettings.json",
-              "ToolTip": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\appsettings.json",
+              "ToolTip": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\appsettings.json",
               "RelativeToolTip": "MiLibreria\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

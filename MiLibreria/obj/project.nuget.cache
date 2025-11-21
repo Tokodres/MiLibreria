@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IdfXSiuV4VA=",
+  "dgSpecHash": "Zh085bT7jAA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TOKO\\Desktop\\MiLibreria\\MiLibreria\\MiLibreria.csproj",
+  "projectFilePath": "C:\\Users\\TOKO\\Desktop\\UD\\IS\\MiLibreria\\MiLibreria\\MiLibreria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TOKO\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\TOKO\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
