@@ -17,6 +17,19 @@
                 <li class="nav-item">
                     <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="collapse" data-bs-target="#crudSubmenu" aria-expanded="false">
+                        Libros
+                    </a>
+                    
+                    <div class="collapse" id="crudSubmenu">
+                        <ul class="nav flex-column ms-3">
+                                  <li><a class="nav-link text-dark" asp-area="" asp-controller="Libros" asp-action="Index">Libros</a></li> 
+                          
+                        </ul>
+                    </div>
+
+                </li>
 
                 <li class="nav-item">
                     <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="collapse" data-bs-target="#crudSubmenu" aria-expanded="false">
@@ -32,9 +45,7 @@
                     </div>
 
                 </li>
-
                
-
                 <li class="nav-item">
                     <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="collapse" data-bs-target="#ventasSubmenu" aria-expanded="false">
                        Ventas
@@ -47,14 +58,8 @@
                         <ul class="nav flex-column ms-3">
                             <li><a class="nav-link text-dark" asp-area="" asp-controller="Ventas" asp-action="Reporte">Reporte ventas</a></li>
                         </ul>
-                        <ul class="nav flex-column ms-3">
-                            <li> <a class="nav-link text-dark" asp-area="" asp-controller="Graficas" asp-action="Index">Gráficas</a></li>
-                        </ul>
-
                
                     </div>
-               
-                </li>
                  
             </ul>
         </nav>
