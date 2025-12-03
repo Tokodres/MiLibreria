@@ -1,0 +1,10 @@
+﻿@* Views/Libros/Reporte.cshtml *@
+@{
+    ViewData["Title"] = "Reporte de Libros";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+<p>Haz clic en el siguiente enlace para generar el reporte :</p>
+<a href="@Url.Action("DescargarPDF", "Libros")" class="btn btn-primary">Generar Reporte PDF</a>
+

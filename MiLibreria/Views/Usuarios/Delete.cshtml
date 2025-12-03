@@ -1,0 +1,54 @@
+﻿@model MiLibreria.Models.Usuario
+
+@{
+    ViewData["Title"] = "Eliminar Usuario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow border-danger">
+                <div class="card-header bg-danger text-white">
+                    <h3><i class="bi bi-exclamation-triangle"></i> @ViewData["Title"]</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="text-danger">¿Estás seguro que deseas eliminar este usuario?</h5>
+                    <p class="text-muted">Esta acción no se puede deshacer.</p>
+
+                    <div class="alert alert-warning">
+                        <h6>Información del Usuario:</h6>
+                        <ul class="mb-0">
+                            <li><strong>Nombre:</strong> @Model.NombreUsuario</li>
+                            <li><strong>Correo:</strong> @Model.Correo</li>
+                            <li><strong>Rol:</strong> @Model.Rol?.Nombre</li>
+                            <li><strong>Registro:</strong> @Model.FechaRegistro.ToString("dd/MM/yyyy")</li>
+                        </ul>
+                    </div>
+
+                    @if (Model.RolId == 1 && Model.Correo == "admin@libreria.com")
+                    {
+                        <div class="alert alert-danger">
+                            <i class="bi bi-shield-exclamation"></i>
+                            <strong>No se puede eliminar el usuario administrador principal.</strong>
+                        </div>
+                    }
+
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="UsuarioId" />
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="submit" class="btn btn-danger"
+                                    @(Model.RolId == 1 && Model.Correo == "admin@libreria.com" ? "disabled" : "")>
+                                <i class="bi bi-trash"></i> Eliminar
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary">
+                                <i class="bi bi-x-circle"></i> Cancelar
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

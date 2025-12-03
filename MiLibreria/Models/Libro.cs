@@ -37,7 +37,6 @@ namespace MiLibreria.Models
         public DateTime FechaRegistro { get; set; }
 
         public virtual ICollection<DetalleVenta> DetallesVenta { get; set; }
-        public virtual ICollection<DetalleCompra> DetallesCompra { get; set; }
         public virtual ICollection<MovimientoInventario> MovimientosInventario { get; set; }
     }
 }

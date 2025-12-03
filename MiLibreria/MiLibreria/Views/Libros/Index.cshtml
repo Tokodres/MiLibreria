@@ -1,0 +1,87 @@
+﻿@model IEnumerable<MiLibreria.Models.Libro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>LIBROS</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Editorial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioCompra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioVenta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaRegistro)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Editorial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecioCompra)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecioVenta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaRegistro)
+            </td>
+            <td>
+                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.LibroId">Editar</a> |
+                    <a asp-action="Details" class="btn btn-info" asp-route-id="@item.LibroId">Detalle</a> |
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.LibroId">Eliminar</a>
+               
+            </td>
+        </tr>
+
+}
+    </tbody>
+</table>
+@* Views/Libros/Reporte.cshtml *@
+@{
+    ViewData["Title"] = "Reporte de Libros";
+}
+
+@* Views/Libros/Index.cshtml *@
+<h3>Libros</h3>
+<p><a href="@Url.Action("Reporte", "Libros")" class="btn btn-info">Ver Reporte PDF</a></p>

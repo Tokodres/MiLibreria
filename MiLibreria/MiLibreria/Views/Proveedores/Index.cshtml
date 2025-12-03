@@ -1,0 +1,55 @@
+﻿@model IEnumerable<MiLibreria.Models.Proveedor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>PROVEEDORES</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PersonaContacto)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonaContacto)
+            </td>
+
+            <td>
+                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.ProveedorId">Editar</a> |
+                    <a asp-action="Details" class="btn btn-info" asp-route-id="@item.ProveedorId">Detalle</a> |
+                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.ProveedorId">Eliminar</a>
+ 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

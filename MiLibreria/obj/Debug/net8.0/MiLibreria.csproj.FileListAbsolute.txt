@@ -884,3 +884,4 @@ C:\Users\TOKO\Desktop\UD\IS\MiLibreria\MiLibreria\obj\Debug\net8.0\refint\MiLibr
 C:\Users\TOKO\Desktop\UD\IS\MiLibreria\MiLibreria\obj\Debug\net8.0\MiLibreria.pdb
 C:\Users\TOKO\Desktop\UD\IS\MiLibreria\MiLibreria\obj\Debug\net8.0\MiLibreria.genruntimeconfig.cache
 C:\Users\TOKO\Desktop\UD\IS\MiLibreria\MiLibreria\obj\Debug\net8.0\ref\MiLibreria.dll
+C:\Users\TOKO\Desktop\UD\IS\MiLibreria\MiLibreria\obj\Debug\net8.0\MiLibreria.sourcelink.json

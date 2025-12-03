@@ -109,28 +109,6 @@ namespace MiLibreria.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Compras",
-                columns: table => new
-                {
-                    CompraId = table.Column<int>(type: "int", nullable: false),
-                    ProveedorId = table.Column<int>(type: "int", nullable: false),
-                    FechaCompra = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Total = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    NumeroFactura = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
-                    EstadoCompra = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Compras", x => x.CompraId);
-                    table.ForeignKey(
-                        name: "FK_Compras_Proveedores_ProveedorId",
-                        column: x => x.ProveedorId,
-                        principalTable: "Proveedores",
-                        principalColumn: "ProveedorId",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "DetalleVentas",
                 columns: table => new
                 {
@@ -158,49 +136,6 @@ namespace MiLibreria.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "DetalleCompras",
-                columns: table => new
-                {
-                    DetalleCompraId = table.Column<int>(type: "int", nullable: false),
-                    CompraId = table.Column<int>(type: "int", nullable: false),
-                    LibroId = table.Column<int>(type: "int", nullable: false),
-                    Cantidad = table.Column<int>(type: "int", nullable: false),
-                    PrecioUnitario = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Subtotal = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_DetalleCompras", x => x.DetalleCompraId);
-                    table.ForeignKey(
-                        name: "FK_DetalleCompras_Compras_CompraId",
-                        column: x => x.CompraId,
-                        principalTable: "Compras",
-                        principalColumn: "CompraId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_DetalleCompras_Libros_LibroId",
-                        column: x => x.LibroId,
-                        principalTable: "Libros",
-                        principalColumn: "LibroId",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Compras_ProveedorId",
-                table: "Compras",
-                column: "ProveedorId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_DetalleCompras_CompraId",
-                table: "DetalleCompras",
-                column: "CompraId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_DetalleCompras_LibroId",
-                table: "DetalleCompras",
-                column: "LibroId");
-
             migrationBuilder.CreateIndex(
                 name: "IX_DetalleVentas_LibroId",
                 table: "DetalleVentas",
@@ -225,17 +160,12 @@ namespace MiLibreria.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "DetalleCompras");
 
             migrationBuilder.DropTable(
                 name: "DetalleVentas");
 
             migrationBuilder.DropTable(
                 name: "MovimientoInventario");
-
-            migrationBuilder.DropTable(
-                name: "Compras");
 
             migrationBuilder.DropTable(
                 name: "Ventas");

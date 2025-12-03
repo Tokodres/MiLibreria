@@ -36,24 +36,6 @@ namespace MiLibreria.Migrations
                 oldClrType: typeof(int),
                 oldType: "int")
                 .Annotation("SqlServer:Identity", "1, 1");
-
-            migrationBuilder.AlterColumn<int>(
-                name: "DetalleCompraId",
-                table: "DetalleCompras",
-                type: "int",
-                nullable: false,
-                oldClrType: typeof(int),
-                oldType: "int")
-                .Annotation("SqlServer:Identity", "1, 1");
-
-            migrationBuilder.AlterColumn<int>(
-                name: "CompraId",
-                table: "Compras",
-                type: "int",
-                nullable: false,
-                oldClrType: typeof(int),
-                oldType: "int")
-                .Annotation("SqlServer:Identity", "1, 1");
         }
 
         /// <inheritdoc />
@@ -86,23 +68,6 @@ namespace MiLibreria.Migrations
                 oldType: "int")
                 .OldAnnotation("SqlServer:Identity", "1, 1");
 
-            migrationBuilder.AlterColumn<int>(
-                name: "DetalleCompraId",
-                table: "DetalleCompras",
-                type: "int",
-                nullable: false,
-                oldClrType: typeof(int),
-                oldType: "int")
-                .OldAnnotation("SqlServer:Identity", "1, 1");
-
-            migrationBuilder.AlterColumn<int>(
-                name: "CompraId",
-                table: "Compras",
-                type: "int",
-                nullable: false,
-                oldClrType: typeof(int),
-                oldType: "int")
-                .OldAnnotation("SqlServer:Identity", "1, 1");
         }
     }
 }

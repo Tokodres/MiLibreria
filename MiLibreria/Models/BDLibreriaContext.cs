@@ -15,14 +15,11 @@ public partial class BDLibreriaContext : DbContext
         : base(options)
     {
     }
-
+    public virtual DbSet<Rol> Roles { get; set; }
+    public virtual DbSet<Usuario> Usuarios { get; set; }
     public virtual DbSet<Cliente> Clientes { get; set; }
 
-    public virtual DbSet<Compra> Compras { get; set; }
-
     public virtual DbSet<Libro> Libros { get; set; }
-
-    public virtual DbSet<DetalleCompra> DetalleCompras { get; set; }
 
     public virtual DbSet<DetalleVenta> DetalleVentas { get; set; }
 
@@ -51,32 +48,10 @@ public partial class BDLibreriaContext : DbContext
         modelBuilder.Entity<Venta>()
            .HasKey(v => v.VentaId)
            .HasName("PK_Ventas");
-
-        modelBuilder.Entity<Compra>(entity =>
-        {
-            entity.HasKey(e => e.CompraId);
-            entity.Property(e => e.NumeroFactura)
-                  .IsRequired()
-                  .HasMaxLength(20);
-
-            entity.HasOne(e => e.Proveedor)
-                  .WithMany(p => p.Compras)
-                  .HasForeignKey(e => e.ProveedorId)
-                  .OnDelete(DeleteBehavior.Restrict);
-        });
-
-        modelBuilder.Entity<DetalleCompra>()
-         .HasKey(d => d.DetalleCompraId);
-
-        modelBuilder.Entity<DetalleCompra>()
-            .HasOne(d => d.Compra)
-            .WithMany(c => c.Detallescompra)
-            .HasForeignKey(d => d.CompraId);
-
-        modelBuilder.Entity<DetalleCompra>()
-            .HasOne(d => d.Libro)
-            .WithMany(l => l.DetallesCompra)
-            .HasForeignKey(d => d.LibroId);
+        modelBuilder.Entity<Usuario>()
+            .HasOne(u => u.Rol)
+            .WithMany()
+            .HasForeignKey(u => u.RolId);
     }
 
     }

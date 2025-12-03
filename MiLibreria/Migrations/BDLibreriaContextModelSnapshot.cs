@@ -60,72 +60,6 @@ namespace MiLibreria.Migrations
                     b.ToTable("Clientes");
                 });
 
-            modelBuilder.Entity("MiLibreria.Models.Compra", b =>
-                {
-                    b.Property<int>("CompraId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CompraId"));
-
-                    b.Property<string>("EstadoCompra")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.Property<DateTime>("FechaCompra")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("NumeroFactura")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.Property<int>("ProveedorId")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("Total")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("CompraId");
-
-                    b.HasIndex("ProveedorId");
-
-                    b.ToTable("Compras");
-                });
-
-            modelBuilder.Entity("MiLibreria.Models.DetalleCompra", b =>
-                {
-                    b.Property<int>("DetalleCompraId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DetalleCompraId"));
-
-                    b.Property<int>("Cantidad")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CompraId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("LibroId")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("PrecioUnitario")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("Subtotal")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("DetalleCompraId");
-
-                    b.HasIndex("CompraId");
-
-                    b.HasIndex("LibroId");
-
-                    b.ToTable("DetalleCompras");
-                });
-
             modelBuilder.Entity("MiLibreria.Models.DetalleVenta", b =>
                 {
                     b.Property<int>("DetalleVentaId")
@@ -302,36 +236,6 @@ namespace MiLibreria.Migrations
                     b.ToTable("Ventas");
                 });
 
-            modelBuilder.Entity("MiLibreria.Models.Compra", b =>
-                {
-                    b.HasOne("MiLibreria.Models.Proveedor", "Proveedor")
-                        .WithMany("Compras")
-                        .HasForeignKey("ProveedorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Proveedor");
-                });
-
-            modelBuilder.Entity("MiLibreria.Models.DetalleCompra", b =>
-                {
-                    b.HasOne("MiLibreria.Models.Compra", "Compra")
-                        .WithMany("DetallesCompra")
-                        .HasForeignKey("CompraId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("MiLibreria.Models.Libro", "Libro")
-                        .WithMany("DetallesCompra")
-                        .HasForeignKey("LibroId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Compra");
-
-                    b.Navigation("Libro");
-                });
-
             modelBuilder.Entity("MiLibreria.Models.DetalleVenta", b =>
                 {
                     b.HasOne("MiLibreria.Models.Libro", "Libro")
@@ -376,11 +280,6 @@ namespace MiLibreria.Migrations
             modelBuilder.Entity("MiLibreria.Models.Cliente", b =>
                 {
                     b.Navigation("Ventas");
-                });
-
-            modelBuilder.Entity("MiLibreria.Models.Compra", b =>
-                {
-                    b.Navigation("DetallesCompra");
                 });
 
             modelBuilder.Entity("MiLibreria.Models.Libro", b =>

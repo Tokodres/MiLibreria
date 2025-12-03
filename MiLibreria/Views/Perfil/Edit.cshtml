@@ -1,0 +1,87 @@
+﻿@model MiLibreria.Models.Usuario
+
+@{
+    ViewData["Title"] = "Mi Perfil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h3><i class="bi bi-person-circle"></i> @ViewData["Title"]</h3>
+                </div>
+                <div class="card-body">
+
+                    @if (TempData["MensajeExito"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <i class="bi bi-check-circle"></i> @TempData["MensajeExito"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    <form asp-action="Edit">
+                        <input type="hidden" asp-for="UsuarioId" />
+
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="NombreUsuario" class="form-label">Nombre de Usuario *</label>
+                                <input asp-for="NombreUsuario" class="form-control" />
+                                <span asp-validation-for="NombreUsuario" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Correo" class="form-label">Correo Electrónico *</label>
+                                <input asp-for="Correo" type="email" class="form-control" />
+                                <span asp-validation-for="Correo" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Clave" class="form-label">Nueva Contraseña</label>
+                            <input asp-for="Clave" type="password" class="form-control" />
+                            <span asp-validation-for="Clave" class="text-danger"></span>
+                            <small class="form-text text-muted">Dejar en blanco para mantener la contraseña actual.</small>
+                        </div>
+
+                        <div class="mb-3">
+                            <small class="text-muted">
+                                <strong>Rol:</strong> @(Model.Rol?.Nombre ?? "No asignado")<br>
+                                <strong>Estado:</strong> @(Model.Estado ? "Activo" : "Inactivo")<br>
+                                <strong>Fecha de Registro:</strong> @Model.FechaRegistro.ToString("dd/MM/yyyy")<br>
+                                <strong>Último Acceso:</strong>
+                                @if (Model.UltimoAcceso.HasValue)
+                                {
+                                    @Model.UltimoAcceso.Value.ToString("dd/MM/yyyy HH:mm")
+                                }
+                                else
+                                {
+                                    <span>Nunca</span>
+                                }
+                            </small>
+                        </div>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bi bi-check-circle"></i> Guardar Cambios
+                            </button>
+                            <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">
+                                <i class="bi bi-arrow-left"></i> Volver al Inicio
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

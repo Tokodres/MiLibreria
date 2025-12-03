@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<MiLibreria.Models.Proveedor>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "PROVEEDORES";
 }
 
 <h1>PROVEEDORES</h1>
@@ -9,47 +9,77 @@
 <p>
     <a class="btn btn-primary" asp-action="Create">Crear nuevo</a>
 </p>
-<table class="table">
+
+<!-- Formulario de búsqueda -->
+<div class="card mb-4">
+    <div class="card-body">
+        <form asp-action="Index" method="get" class="row g-3">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" name="buscar"
+                           placeholder="Buscar proveedor..."
+                           value="@ViewBag.Buscar" />
+
+                    <select class="form-select" name="criterio" style="max-width: 150px;">
+                        <option value="general" selected="@(ViewBag.Criterio == "general")">General</option>
+                        <option value="ruc" selected="@(ViewBag.Criterio == "ruc")">RUC</option>
+                        <option value="contacto" selected="@(ViewBag.Criterio == "contacto")">Contacto</option>
+                        <option value="direccion" selected="@(ViewBag.Criterio == "direccion")">Dirección</option>
+                        <option value="email" selected="@(ViewBag.Criterio == "email")">Email</option>
+                    </select>
+
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="bi bi-search"></i> Buscar
+                    </button>
+
+                    @if (!string.IsNullOrEmpty(ViewBag.Buscar))
+                    {
+                        <a class="btn btn-outline-danger" asp-action="Index">
+                            <i class="bi bi-x-circle"></i> Limpiar
+                        </a>
+                    }
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<table class="table table-striped table-hover">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Direccion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telefono)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PersonaContacto)
-            </th>
-            <th></th>
+            <th>ID</th>
+            <th>RUC</th>
+            <th>Persona de Contacto</th>
+            <th>Teléfono</th>
+            <th>Email</th>
+            <th>Dirección</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Direccion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Telefono)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PersonaContacto)
-            </td>
-
-            <td>
-                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.ProveedorId">Editar</a> |
-                    <a asp-action="Details" class="btn btn-info" asp-route-id="@item.ProveedorId">Detalle</a> |
-                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.ProveedorId">Eliminar</a>
- 
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.ProveedorId)</td>
+                <td>@Html.DisplayFor(modelItem => item.RUC)</td>
+                <td>@Html.DisplayFor(modelItem => item.PersonaContacto)</td>
+                <td>@Html.DisplayFor(modelItem => item.Telefono)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>@Html.DisplayFor(modelItem => item.Direccion)</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a asp-action="Edit" class="btn btn-warning btn-sm" asp-route-id="@item.ProveedorId">
+                            <i class="bi bi-pencil"></i> Editar
+                        </a>
+                        <a asp-action="Details" class="btn btn-info btn-sm" asp-route-id="@item.ProveedorId">
+                            <i class="bi bi-info-circle"></i> Detalle
+                        </a>
+                        <a asp-action="Delete" class="btn btn-danger btn-sm" asp-route-id="@item.ProveedorId">
+                            <i class="bi bi-trash"></i> Eliminar
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

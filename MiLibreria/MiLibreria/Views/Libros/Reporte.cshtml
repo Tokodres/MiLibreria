@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MiLibreria.Models.Libro>
+
+<h2>Listado de Libros</h2>
+
+<!-- Formulario para filtrar libros por editorial -->
+<form method="get" asp-action="DescargarPDF">
+    <div>
+        <label for="Editorial">Editorial:</label>
+        <input type="text" id="Editorial" name="Editorial" value="" />
+        <button type="submit" class="btn btn-primary">Filtrar y Generar PDF</button>
+    </div>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Editorial</th>
+                <th>Precio Venta</th>
+                <th>Precio Compra</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var libro in Model)
+            {
+                <tr>
+                    <td>@libro.LibroId</td>
+                    <td>@libro.Titulo</td>
+                    <td>@libro.Autor</td>
+                    <td>@libro.Editorial</td>
+                    <td>@libro.PrecioVenta.ToString("N")</td>
+                    <td>@libro.PrecioCompra.ToString("N")</td>
+                    <td>@libro.Stock</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No se encontraron libros para mostrar.</p>
+}
+
+
+
+
